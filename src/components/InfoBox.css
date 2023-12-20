@@ -1,0 +1,37 @@
+.InfoBox {
+  border-radius: 5px;
+  border: 4px black solid;
+  background-color: rgba(255, 255, 255);
+  color: black;
+  filter: drop-shadow(5px 5px 15px rgb(22, 22, 22));
+  width: 60%;
+  height: 100%;
+
+}
+
+.InfoBox2 {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  padding: 20px; 
+}
+
+.infoText {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .ImgTest {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(-50px);
+  }
+}
