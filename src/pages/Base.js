@@ -11,14 +11,7 @@ import timelineStack from '../img/timelineFrame.png'
 import contactStack from '../img/contactFrame.png'
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
-import { faCaretLeft } from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faFaceSmile } from '@fortawesome/free-solid-svg-icons'
-import { faGear } from '@fortawesome/free-solid-svg-icons'
-import { faFolder } from '@fortawesome/free-solid-svg-icons'
-import { faBusinessTime } from '@fortawesome/free-solid-svg-icons'
-import { faCircleDown } from '@fortawesome/free-solid-svg-icons'
+import { faCaretRight, faCaretLeft, faEnvelope, faFaceSmile, faGear, faFolder, faBusinessTime, faCircleDown } from '@fortawesome/free-solid-svg-icons'
 import documentCV from '../documents/OliverSandersonCV.pdf'
 
 
