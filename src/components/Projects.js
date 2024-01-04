@@ -2,6 +2,9 @@ import './InfoBox.css';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFolder, faSquareCaretDown, faSquareCaretUp } from '@fortawesome/free-solid-svg-icons'
+import koryoku from '../img/KorYokuLOGO.png'
+import koryokuScreen from '../img/KorYokuSCREEN.png'
+import koryokuChrome from '../img/KorYokuChromeSCREEN.png'
 
 function Projects() {
   const [expandOne, setExpandOne] = useState(true)
@@ -15,8 +18,12 @@ function Projects() {
       </div>
       <p className="infoText" >My projects are ...</p>
       <div className="infoText">
-        <button className="projectButton" onClick={() => setExpandOne(!expandOne)}>Project 1 <FontAwesomeIcon icon={expandOne ? faSquareCaretDown : faSquareCaretUp} /></button>
-        <div hidden={expandOne}>MORE INFO ON PROJECT 1</div>
+        <button className="projectButton" onClick={() => setExpandOne(!expandOne)}><img height="40px" src={koryoku}/> - Productivity tracker with chrome extension &nbsp; <FontAwesomeIcon icon={expandOne ? faSquareCaretDown : faSquareCaretUp} /></button>
+        <div hidden={expandOne}>
+          <img className="projectImg" src={koryokuScreen} />
+          <img className="projectImg" src={koryokuChrome} />
+          MORE INFO ON PROJECT 1
+          </div>
       </div>
       <br />
       <div className="infoText">
@@ -25,7 +32,7 @@ function Projects() {
       </div>
       <br />
       <div className="infoText">
-        <button className="projectButton" onClick={() => setExpandThree(!expandThree)}>Project 3 <FontAwesomeIcon icon={expandThree ? faSquareCaretDown : faSquareCaretUp} /></button>
+        <button className="projectButton" onClick={() => setExpandThree(!expandThree)}>Other Projects &nbsp; <FontAwesomeIcon icon={expandThree ? faSquareCaretDown : faSquareCaretUp} /></button>
         <div hidden={expandThree}>MORE INFO ON PROJECT 3</div>
       </div>
 

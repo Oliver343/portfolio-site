@@ -29,7 +29,7 @@ function Base() {
       selected === 3 ? timelineStack : null +
       selected === 4 ? contactStack : null 
       })`}}>
-      <button className="sideButton leftButton" onClick={() => setSelected(selected <= 0 ? 4 : selected - 1)}><FontAwesomeIcon icon={faCaretLeft}  size="4x" /></button>
+      <button className="sideButton leftButton" onClick={() => setSelected(selected <= 0 ? 4 : selected - 1)}><FontAwesomeIcon icon={faCaretLeft}  size="2x" /></button>
       <div className="BaseInner">
         {selected === 0 ? <InfoBox /> : null}
         {selected === 1 ? <MyStack /> : null}
@@ -37,18 +37,18 @@ function Base() {
         {selected === 3 ? <Timeline /> : null}
         {selected === 4 ? <Contact /> : null}
         <div className="buttonsBelow">
-          <button className="bottomButton" disabled={selected === 0} onClick={() => setSelected(0)}><FontAwesomeIcon icon={faFaceSmile} size="2x" /></button>
-          <button className="bottomButton" disabled={selected === 1} onClick={() => setSelected(1)}><FontAwesomeIcon icon={faGear} size="2x" /></button>
-          <button className="bottomButton" disabled={selected === 2} onClick={() => setSelected(2)}><FontAwesomeIcon icon={faFolder} size="2x" /></button>
-          <button className="bottomButton" disabled={selected === 3} onClick={() => setSelected(3)}><FontAwesomeIcon icon={faBusinessTime} size="2x" /></button>
-          <button className="bottomButton" disabled={selected === 4} onClick={() => setSelected(4)}><FontAwesomeIcon icon={faEnvelope} size="2x" /></button>
+          <button className="bottomButton" disabled={selected === 0} onClick={() => setSelected(0)}><FontAwesomeIcon icon={faFaceSmile} /></button>
+          <button className="bottomButton" disabled={selected === 1} onClick={() => setSelected(1)}><FontAwesomeIcon icon={faGear} /></button>
+          <button className="bottomButton" disabled={selected === 2} onClick={() => setSelected(2)}><FontAwesomeIcon icon={faFolder} /></button>
+          <button className="bottomButton" disabled={selected === 3} onClick={() => setSelected(3)}><FontAwesomeIcon icon={faBusinessTime} /></button>
+          <button className="bottomButton" disabled={selected === 4} onClick={() => setSelected(4)}><FontAwesomeIcon icon={faEnvelope}  /></button>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a href={documentCV} download="OliverSandersonCV" target='_blank'>
-            <button className="bottomButton">CV <FontAwesomeIcon icon={faCircleDown} size="2x" /></button>
+            <button className="bottomButton">CV <FontAwesomeIcon icon={faCircleDown} /></button>
           </a>      
         </div>
       </div>
-      <button className="sideButton rightButton" onClick={() => setSelected(selected >= 4 ? 0 : selected + 1)}><FontAwesomeIcon icon={faCaretRight} size="4x" /></button>
+      <button className="sideButton rightButton" onClick={() => setSelected(selected >= 4 ? 0 : selected + 1)}><FontAwesomeIcon icon={faCaretRight} size="2x" /></button>
     </div>
   );
 }
