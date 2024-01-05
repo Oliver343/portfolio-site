@@ -9,6 +9,11 @@
   font-size: 15px; 
 }
 
+.centeredBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .InfoBox2 {
   background-color: rgb(0, 0, 0);
   color: aliceblue;
@@ -20,6 +25,7 @@
 .infoText {
   padding-right: 30px;
   padding-left: 30px;
+  font-size: 20px;
 }
 
 .projectButton {
@@ -43,6 +49,11 @@
   border: 3px solid black;
   margin: 5px;
   overflow: hidden;
+  max-width: 590px;
+}
+
+.faceImg {
+  padding: 20px;
 }
 
 
