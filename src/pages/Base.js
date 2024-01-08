@@ -10,7 +10,7 @@ import projectStack from '../img/projectFrame.png'
 import timelineStack from '../img/timelineFrame.png'
 import contactStack from '../img/contactFrame.png'
 import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretRight, faCaretLeft, faEnvelope, faFaceSmile, faGear, faFolder, faBusinessTime, faCircleDown } from '@fortawesome/free-solid-svg-icons'
 import documentCV from '../documents/OliverSandersonCV.pdf'
 
