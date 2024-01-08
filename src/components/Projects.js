@@ -38,7 +38,7 @@ function Projects() {
           <a href="https://github.com/Oliver343/EU-PT-13-Oliver-Sanderson-Productivity-Tracker-Final">https://github.com/Oliver343/EU-PT-13-Oliver-Sanderson-Productivity-Tracker-Final</a>
           <br />
           <br />
-          You can view the repo for the chrome extension here: 
+          You can view the repo for the KorYoku chrome extension here: 
           <br />
           <a href="https://github.com/Oliver343/chromex ">https://github.com/Oliver343/chromex </a>
           <br />
