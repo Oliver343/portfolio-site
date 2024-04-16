@@ -44,7 +44,7 @@ function Base() {
           <button className="bottomButton" disabled={selected === 4} onClick={() => setSelected(4)}><FontAwesomeIcon icon={faEnvelope}  /></button>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a href={documentCV} download="OliverSandersonCV" target='_blank'>
-            <button className="bottomButton">CV <FontAwesomeIcon icon={faCircleDown} /></button>
+            <button className="bottomButton">CV! <FontAwesomeIcon icon={faCircleDown} /></button>
           </a>      
         </div>
       </div>
